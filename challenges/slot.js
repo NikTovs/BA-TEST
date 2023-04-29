@@ -85,8 +85,6 @@ function returnCoins(item, quantity) {
   }
 }
 
-setRows(7, 6, 3);
-
 function calculateResult(position1, position2, position3) {
   const rows = setRows(position1, position2, position3);
   let countedItemsArr = [];
